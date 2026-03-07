@@ -118,8 +118,10 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - <b>Dataset</b>: Nesta pasta está o arquivo .CSV escolhido, representando os dados númericos.
 
 - <b>Imagens</b>: Aqui estão as 200 imagens de Raio-x do toráx e o programa "Cap1_Dados_Imagens_Selecao.ipynb" usado para selecionar essas imagens.
+
+- <b>Textos</b>: Aqui estão os textos escolhidos para treinamento de um modelo NLP.
   
 - <b>assets</b>: Imagens relevantes para documentação desse repositório.
   
-- <b>Textos</b>: 
+
 
