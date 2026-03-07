@@ -83,22 +83,43 @@ Documentação da origem e das transformações dos dados. Registrar de onde o d
 
 Princípios de privacidade e anonimização, mesmo que o dataset já seja público. A ausência de dados pessoais identificáveis deve ser verificada.
 
+## Imagens
+
+Pegamos um conjunto de imagens de Raio-x (radriografia) do toráx
+
+<img src="assets/RaioX.png" widht="150">
+
+Radiografias de tórax são um dos exames de imagem médica mais frequentes e econômicos disponíveis. 
+O conjunto de dados de radiografias de tórax do NIH é composto por 112.120 imagens de raios X com rótulos de doenças de 30.805 pacientes únicos. Para criar esses rótulos, os autores utilizaram Processamento de Linguagem Natural para extrair classificações de doenças dos laudos radiológicos associados.
+
+Fonte: https://www.kaggle.com/datasets/khanfashee/nih-chest-x-ray-14-224x224-resized
+
+As imagens do dataset podem ser utilizadas para treinar modelos de Visão Computacional capazes de identificar padrões associados a doenças pulmonares e cardíacas em exames de raio-X torácico. Esses modelos podem ser aplicados em tarefas como classificação de doenças, detecção de anomalias e apoio ao diagnóstico médico.
+
+Pensando em selecionar somente uma amostra de imagens, criamos um programa python (Cap1_Dados_Imagens_Selecao.ipynb) que fez a captura de somente 200 imagens, mantendo a distruibuição original de imagens por tipo de doença detectada.
+
+<img src="assets/Redistribuir_imagens.png" widht="150">
+
+### Governança e Tratamento
+Antes do treinamento, é necessário realizar um tratamento das imagens. Isso inclui selecionar um subconjunto representativo do dataset, organizar as imagens por classe de doença, padronizar o tamanho e o formato das imagens e remover arquivos corrompidos ou duplicados.
+Vamos usar arquiteturas de redes neurais convolucionais (CNNs) ou modelos pré-treinados para aprender padrões visuais presentes nos exames.
+
+Em relação à governança de dados, é importante documentar a origem do dataset, verificar as licenças de uso e registrar todas as etapas de tratamento realizadas nas imagens. Também é necessário considerar possíveis viéses do dataset, já que os exames foram coletados em um contexto hospitalar específico. Além disso, deve-se garantir que as imagens estejam anonimizadas, sem informações que possam identificar pacientes.
+
+
+## Textos
+
+### Governança e Tratamento
 
 # 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+- <b>Dataset</b>: Nesta pasta está o arquivo .CSV escolhido, representando os dados númericos.
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+- <b>Imagens</b>: Aqui estão as 200 imagens de Raio-x do toráx e o programa "Cap1_Dados_Imagens_Selecao.ipynb" usado para selecionar essas imagens.
+  
+- <b>assets</b>: Imagens relevantes para documentação desse repositório.
+  
+- <b>Textos</b>: 
 
