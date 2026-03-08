@@ -12,7 +12,7 @@
 
 # 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/renanmendes26/">Renan de Oliveira Mendes - RM563145</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
+- <a href="https://www.linkedin.com/in/ricaleone/">Ricardo Batah Leone - RM563382</a>
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
