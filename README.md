@@ -1,4 +1,4 @@
-<img width="293" height="19" alt="image" src="https://github.com/user-attachments/assets/4a3e58c8-2824-4899-8387-0dafd3430599" /># FIAP - Faculdade de Informática e Administração Paulista
+# FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
 <a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
