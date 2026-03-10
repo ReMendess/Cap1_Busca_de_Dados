@@ -1,4 +1,4 @@
-# FIAP - Faculdade de Informática e Administração Paulista
+<img width="293" height="19" alt="image" src="https://github.com/user-attachments/assets/4a3e58c8-2824-4899-8387-0dafd3430599" /># FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
 <a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
@@ -13,9 +13,7 @@
 # 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/renanmendes26/">Renan de Oliveira Mendes - RM563145</a>
 - <a href="https://www.linkedin.com/in/ricaleone/">Ricardo Batah Leone - RM563382</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/yuki-watanabe-kuramoto-858856146/">Yuki Watanabe Kuramoto  - RM565164</a>
 
 
 # 📜 Descrição
@@ -108,8 +106,29 @@ Em relação à governança de dados, é importante documentar a origem do datas
 
 
 ## Textos
+Focando em captar dados textuais exploramos diversos artigos científicos e acadêmicos na https://www.scielo.br
+Escolhemos os dois artigos:
+- O Impacto Das Doenças Cardiovasculares Nas Perdas Econômicas
 
-### Governança e Tratamento
+Autora: Fátima Marinho
+- A Promoção da Saúde e a Prevenção Integrada dos Fatores de Risco para Doenças Cardiovasculares
+- 
+Autores: Amanda Gomes Ribeiro; Rosângela Minardi Mitre Cotta e Sônia Machado Rocha Ribeiro.
+
+<img src="assets/Texto_Saude_Cardio.png" widht="150">
+
+Podemos utilizar esses dois artigos para treinar ou adaptar um modelo de NLP em saúde cardiovascular.
+Os dois artigos trazem vocabulário típico de epidemiologia, economia da saúde, promoção da saúde, atenção primária, fatores de risco, políticas públicas, etc., o que 
+ajuda o modelo a aprender termos técnicos em português neste domínio. 
+Podemos extrair entidades que identifiquem diferentes doenças (cardiopatia isquêmica, AVC, hipertensão) e extrair indicadores (AVPP, PIB, mortalidade, internações, custos), além de fatores de risco (tabagismo, 
+sedentarismo, dieta). 
+
+Os textos também apresentam um vocabulário técnico para profissionais de saúde. Enquanto um é um mini editorial focado em impacto econômico e o outro é um artigo de revisão amplo sobre promoção da saúde, o corpus permite nos treinar o modelo a reconhecer diferentes estilos (editorial, revisão teórica, relato de experiência), o que é útil para recomendar material adequado ao tipo de público. 
+
+Para médicos, esses textos podem alimentar ferramentas de apoio à decisão e educação  continuada. Um modelo treinado nesse texto pode gerar respostas rápidas para justificar programas de prevenção, prescrição de atividade física, controle de fatores de risco, e auxiliar em relatórios para gestores. 
+
+Para a população, podemos criar um modelo que transforme o conteúdo técnico em informação acessível, personalizada e persuasiva. 
+
 
 # 📁 Estrutura de pastas
 
