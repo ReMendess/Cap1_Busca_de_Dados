@@ -14,6 +14,7 @@
 - <a href="https://www.linkedin.com/in/renanmendes26/">Renan de Oliveira Mendes - RM563145</a>
 - <a href="https://www.linkedin.com/in/ricaleone/">Ricardo Batah Leone - RM563382</a>
 - <a href="https://www.linkedin.com/in/yuki-watanabe-kuramoto-858856146/">Yuki Watanabe Kuramoto  - RM565164</a>
+- <a href="https://br.linkedin.com/in/rodrigoreinaux/">Rodrigo De Melo Reinaux Porto  - RM564242</a>
 
 
 # 📜 Descrição
